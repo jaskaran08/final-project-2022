@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-main: #600B18;
+  --clr-cream-grey: #F3F3F3;
+  --clr-grey: #C4C4C4;
+  --gd-light: radial-gradient(circle at 71% 18%, #fff, rgba(252, 251, 251, 0.98) 5%, rgba(241, 241, 241, 0.94) 11%, rgba(224, 223, 223, 0.86) 17%, rgba(199, 198, 198, 0.75) 22%, rgba(168, 166, 167, 0.6) 28%, rgba(129, 127, 127, 0.43) 34%, rgba(84, 81, 82, 0.22) 39%, rgba(35, 31, 32, 0) 44%);
+  --ff-main: 'Gothic A1', sans-serif;
+}
+
+body{
+  font-family: var(--ff-main);
+}
+
+.grey-overlay{
+  mix-blend-mode: overlay;
+  background-blend-mode: overlay;
+}
